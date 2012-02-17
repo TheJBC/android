@@ -50,7 +50,6 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
   <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" />
   <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
   <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="ics1" />
