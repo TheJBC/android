@@ -53,7 +53,7 @@
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
   <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" />
   <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
-  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="ics1" />
+  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="ics2" />
   <project path="vendor/lge/thunderc" name="thekraven/vendor_lge_thunderc" revision="ics1" />
   <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
