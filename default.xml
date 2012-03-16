@@ -48,6 +48,10 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="android_dalvik" remote="chaos" revision="ics" />
   <project path="development" name="CyanogenMod/android_development" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" /> 
+  <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" /> 
+  <project path="device/moto/sunfire" name="sunfire-1" remote="cougar" revision="gbsunfire" /> 
+  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/lge/thunderc" name="android_device_lge_thunderc" remote="cougar" revision="icsa8" />
