@@ -24,21 +24,21 @@
   <remote  name="cougar"
            fetch="git://github.com/thekraven/" />
            
-  <remote  name="photon"
-           fetch="git://github.com/photon-dev-team/" />  
+  <remote name="photon"
+          fetch="git://github.com/photon-dev-team/" />  
 
-  <remote  name="cougar2"
-           fetch="git://github.com/thekraven2/" />
+  <remote name="cougar2"
+     	   fetch="git://github.com/thekraven2/" />
 
   <remote  name="github-https"
            fetch="https://github.com/"
-           review="review.cyanogenmod.com" />              
+	         review="review.cyanogenmod.com" />              
 
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
 
-  <project path="build" name=""thekraven/android_build" revision="ics">
+  <project path="build" name="android_build" remote="chaos" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -48,13 +48,13 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="android_dalvik" remote="chaos" revision="ics" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" /> 
-  <project path="device/moto/sunfire" name="sunfire-1" remote="cougar" revision="gbsunfire" /> 
-  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="device/lge/thunderc" name="android_device_lge_thunderc" remote="cougar" revision="icsa8" />
-  <project path="vendor/lge/thunderc" name="vendor_lge_thunderc" remote="cougar" revision="icsa8" />
+  <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" />
+  <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
+  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="icsa9" />
+  <project path="vendor/lge/thunderc" name="thekraven/vendor_lge_thunderc" revision="icsa8" />
+  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -200,9 +200,9 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cougar" revision="icsa7" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="chaos" revision="ics" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cougar" revision="icsa7" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -226,8 +226,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cougar" revision="icsa7" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cougar" revision="icsa7" />  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
@@ -235,8 +234,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cougar" revision="icscm"/>
-  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cougar" revision="icscm"/>  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
@@ -281,6 +279,6 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   
-  <project path="android" name="android" remote="cougar" revision="icsa7" />
+  <project path="android" name="thekraven/android" revision="icsa7" />
 
 </manifest>
