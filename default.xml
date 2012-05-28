@@ -52,7 +52,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" />
   <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
-  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="ics13" />
+  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="ics14" />
   <project path="vendor/lge/thunderc" name="thekraven/vendor_lge_thunderc" revision="icsa8" />
   <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
