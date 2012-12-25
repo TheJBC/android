@@ -376,4 +376,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
+  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="cm-10.1" remote="github"  />
+  <project path="device/lge/msm7x27-common" name="thekraven/android_device_lge_msm7x27-common" revision="cm-10.1" remote="github"  />
+  <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
+  <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" />
+  <project path="vendor/lge" name="thekraven/android_vendor_lge" revision="cm-10.1" remote="github" />
+
 </manifest>
