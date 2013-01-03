@@ -12,8 +12,10 @@ We have a gerrit instance at http://server.cas-online.nl:8181. Please don't try 
 Ask an owner for forking stuff for gerrit. We will be happy to oblige.
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
-
+for ref:
     repo init -u git://github.com/androidarmv6/android.git -b cm-10.1
+
+    repo init -u git://github.com/TheJBC/android.git -b cm-10.1
 
 Then to sync up:
 
@@ -22,7 +24,7 @@ Then to sync up:
 Build your device:
 
     source build/envsetup.sh
-    brunch DEVICENAME (for ex: brunch cooper)
+    brunch thunderc (for ex: brunch cooper)
 
 Flash ZIP:
 
