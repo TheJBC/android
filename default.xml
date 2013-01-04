@@ -390,7 +390,7 @@
 
 <!-- From KonstaT -->
    <project path="external/libncurses" name="legaCyMod/android_external_libncurses" revision="cm-10.1" remote="github" />
-    <project path="external/wpa_supplicant_8" name="legaCyMod/android_external_wpa_supplicant_8" revision="cm-10.1" remote="github" />
+    <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" />
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-10.1" remote="github" />
     <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.1" remote="github" />
     <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-10.1" remote="github" />
