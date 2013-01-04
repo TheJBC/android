@@ -13,7 +13,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="thekraven/android_build" revision="cm-10.1" remote="github" >
+  <project path="build" name="TheJBC/android_build" revision="10.1" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -367,7 +367,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="jb-mr1-release" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="jb-mr1-release" />
-  <project path="vendor/cm" name="thekraven/android_vendor_cm" revision="cm-10.1" remote="github" />
+  <project path="vendor/cm" name="TheJBC/android_vendor_cm" revision="cm-10.1" remote="github" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
@@ -379,7 +379,7 @@
   <project path="device/lge/msm7x27-common" name="TheJBC/android_device_lge_msm7x27-common" revision="10.1" remote="github" />
   <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" />
-  <project path="vendor/lge" name="thekraven/android_vendor_lge" revision="cm-10.1" remote="github" />
+  <project path="vendor/lge" name="TheJBC/android_vendor_lge" revision="cm-10.1" remote="github" />
 
 <!-- From KonstaT -->
    <project path="external/libncurses" name="legaCyMod/android_external_libncurses" revision="cm-10.1" />
