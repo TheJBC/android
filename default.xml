@@ -389,15 +389,15 @@
   <project path="vendor/lge" name="TheJBC/android_vendor_lge" revision="cm-10.1" remote="github" />
 
 <!-- From KonstaT -->
-   <project path="external/libncurses" name="legaCyMod/android_external_libncurses" revision="cm-10.1" />
-    <project path="external/wpa_supplicant_8" name="legaCyMod/android_external_wpa_supplicant_8" revision="cm-10.1" />
-    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-10.1" />
-    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.1" />
-    <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-10.1" />
-    <project path="hardware/qcom/media" name="legaCyMod/android_hardware_qcom_media" revision="cm-10.1" />
- <!--   <project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-10.1" /> -->
+   <project path="external/libncurses" name="legaCyMod/android_external_libncurses" revision="cm-10.1" remote="github" />
+    <project path="external/wpa_supplicant_8" name="legaCyMod/android_external_wpa_supplicant_8" revision="cm-10.1" remote="github" />
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-10.1" remote="github" />
+    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.1" remote="github" />
+    <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-10.1" remote="github" />
+    <project path="hardware/qcom/media" name="legaCyMod/android_hardware_qcom_media" revision="cm-10.1" remote="github" />
+ <!--   <project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-10.1" remote="github" /> -->
     <!-- Local projects -->
-    <project path="hardware/atheros/wifi/libs" name="legaCyMod/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
-    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-10.1" />
+    <project path="hardware/atheros/wifi/libs" name="legaCyMod/android_hardware_atheros_wifi_libs" revision="cm-10.1" remote="github" />
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-10.1" remote="github" />
 
 </manifest>
