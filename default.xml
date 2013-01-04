@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-<!--  <remote  name="github"
+  <remote  name="github"
            fetch=".."
-           review="review.cas-online.nl:8181" /> -->
+           review="review.cas-online.nl:8181" /> 
 
-  <remote  name="github" 
+  <remote  name="github2" 
            fetch=".."
            review="review.cyanogenmod.org" />
 
