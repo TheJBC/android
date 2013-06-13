@@ -403,7 +403,7 @@
 <!-- From androidarmv6 -->
    <project path="external/libncurses" name="legaCyMod/android_external_libncurses" revision="cm-10.1" remote="github" />
    <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" />
-   <project path="frameworks/base" name="TheJBC/android_frameworks_base" revision="aa" remote="github" /> 
+   <project path="frameworks/base" name="TheJBC/android_frameworks_base" revision="10.1" remote="github" /> 
    <project path="frameworks/av" name="androidarmv6/android_frameworks_av" />
    <project path="frameworks/native" name="androidarmv6/android_frameworks_native" />
    <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" />
