@@ -23,6 +23,12 @@ Then to sync up:
 
 To get the latest commits, you will have to manually pull in the frameworks/base, Settings, build, vendor/cm from the androidarmv6 repos.
 
+    git pull git@github.com:androidarmv6/android_vendor_cm.git cm-10.1
+    git pull git@github.com:androidarmv6/android_packages_apps_Settings.git cm-10.1
+    git pull git@github.com:androidarmv6/android_frameworks_base.git cm-10.1
+    git pull git@github.com:androidarmv6/android_build.git cm-10.1
+
+
 Build your device:
 
     source build/envsetup.sh
